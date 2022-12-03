@@ -1,0 +1,211 @@
+*{
+    margin: 0;
+    border: 0;
+    padding: 0;
+}
+
+header{
+    background-color: rgb(13,23,33);
+    color: white;
+    font-family: sans-serif;
+    text-align: center;
+    height: 600px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}   
+
+header h1{
+    margin-top: 140px;
+    margin-bottom: 20px;
+    font-size: 60px;
+}
+
+header p{
+    color: #FFC0C7;
+    font-size: 20px;
+    margin-bottom: 20px;
+}
+header a{
+    color: white;
+    font-size: 20px;
+}
+header a:hover{
+    color: rgb(6,99,67);
+}
+.section1{
+    background-color: #7af6c0;
+    height: 700px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    font-family: sans-serif;
+    text-align: center;
+}
+.section1 h2, .section2 h2, .section3 h2{
+    font-size: 100px;
+    margin-bottom: 10px;
+}
+.section1 p, .section3 p{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+.section1 ul{
+    list-style: none;
+}
+.section1 div.div1 ul a{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+}
+.section1 div.div1 ul li{
+    padding: 15px ;
+
+}
+.section1 div.div1 ul a:hover, .section2 div.div1 ul a:hover, .section3 div.div1 ul a:hover{
+    background-color: rgb(21,87,87);
+}
+.section1 div.div1 ul .c1, .section3 div.div1 ul .c1{
+    background-color: #04AA6D;
+}
+.section1 div.div1 ul .c2, .section3 div.div1 ul .c2{
+    background-color: #FFF4A3;
+    color: black;
+}
+.section1 div.div1 ul .c3, .section3 div.div1 ul .c3{
+    background-color: black;
+}
+.section1 div.div1 ul .c4{
+    background-color: #FFC0C7;
+    color: black;
+}
+.section2 div.div1 iframe{
+    padding: 15px;
+    width: 600px;
+    height: 300;
+    border-radius: 25px;
+   
+}
+.section2{
+    background-color: rgb(254, 254, 133);
+}
+.section3 h2,p{
+    color: white;
+}
+
+.section3{
+    background-color: #282A35;
+    text-align: center;
+}
+.section3 ul a{
+    color: white;
+    text-decoration: none;
+    background-color: aqua;
+    padding: 10px;
+    border-radius: 20px;
+    
+}.section3 div.div1 ul a:hover{
+    background-color: rgb(21,87,87);
+}
+.section3 div.div1 ul li{
+    padding: 15px ;
+}
+.section3 div.div1 iframe{
+    padding: 15px;
+    width: 600px;
+    height: 300;
+    border-radius: 25px;
+}
+
+.sectionT {
+    background-color: rgb(13,23,33);
+    height: 600px;
+    padding: 15px;
+    display: flex;
+    justify-content: space-evenly;
+}
+.sectionT .divT1, .divT2, .divT3, .divT4{
+    flex-direction: column;
+    align-items: center;
+    padding: 80px 80px;
+    border-radius: 7px;
+}
+.sectionT .divT1 a, .divT2 a, .divT3 a, .divT4 a{
+    color: white;
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 10px;
+    border-radius: 12px;
+    font-family: sans-serif;
+
+}
+.sectionT .divT1 h3, .divT2 h3, .divT3 h3, .divT4 h3{ 
+    color: black;
+    font-size: 30px;
+    font-family: sans-serif;
+    
+}
+.sectionT .divT1 p, .divT2 p, .divT3 p, .divT4 p{ 
+    color: black;
+    text-decoration: none;
+    padding: 15px 0px;
+}
+.sectionT div.divT1{
+    background-color:#FFC0C7;
+    margin-bottom: 15px;
+
+}
+.sectionT div.divT2{
+    background-color:#FFF4A3;
+}
+.sectionT div.divT3{
+    background-color:#F3ECEA;
+    width: 260px;
+    margin-bottom: 15px;
+}
+.sectionT div.divT4{
+    background-color:#D9EEE1;
+    width: 260px;
+}
+.sectionLow {
+    background-color: rgb(13,23,33);
+    height: 100px;
+}
+.sectionLow ul{
+    text-align: center;
+}
+.sectionLow .cl1, .cl2, .cl3, .cl4, .cl5, .cl6{
+    padding: 15px;
+    margin-left: 30px;
+    border-radius: 7px;
+    text-decoration: none;
+    font-family: sans-serif;
+    color: black;
+}
+.sectionLow .cl1{
+    background-color: #FFC0C7;
+}
+.sectionLow .cl2{
+    background-color: #F3ECEA;
+}
+.sectionLow .cl3{
+    background-color: #04AA6D;
+}
+.sectionLow .cl4{
+    background-color: #D9EEE1;
+}
+.sectionLow .cl5{
+    background-color: #FFF4A3;
+}
+.sectionLow .cl6{
+    background-color: #7af6c0;
+}
+footer {
+    color: white;
+    text-align:justify;
+    padding: 20px;
+    background-color: rgb(13,23,33);
+    font-family: sans-serif;
+}

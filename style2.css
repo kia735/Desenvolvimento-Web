@@ -1,0 +1,30 @@
+body.dark{
+    background-color: #2f4f4f;
+}
+.dark .header{
+    background-color: #3a678b;
+    color: white;
+}
+.dark .header .apresentação, .dark .header .apresentação h3,.dark .header .apresentação h4{
+    color: white;
+}
+
+.dark .projetos{
+    background-color: #4f4f4f;
+    color: white;
+}
+.dark .projetos .item, .dark .projetos .item2{
+    color: white;
+}
+
+.dark .menu, .dark footer {
+    background-color: rgb(20,20,20);
+}
+.dark .menu ul li a, .dark footer p{
+    color: white
+}
+.dark button{
+    color: white;
+    background-color: black;
+    border: 3px solid white;
+}

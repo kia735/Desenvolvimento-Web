@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style-imc.css" />
+    <title>Calculadora IMC</title>
+  </head>
+  <body>
+    <section class="container">
+      <h1>Imc</h1>
+
+      <p>
+        O IMC é reconhecido como padrão internacional para avaliar o grau de sobrepeso e obesidade. É calculado dividindo o peso (em kg) pela altura ao quadrado (em metros).
+      </p>
+
+      <div class="classificacao"> 
+        <p>
+          <strong>Resultado</strong>	<br>
+          Abaixo de 17	<br>
+          Entre 17 e 18,49	<br>
+          Entre 18,5 e 24,99	<br>
+          Entre 25 e 29,99	<br>
+          Entre 30 e 34,99	<br>
+          Entre 35 e 39,99	<br>
+          Acima de 40	
+        </p>
+
+        <p>
+          <strong>Situação</strong> <br>
+          Muito abaixo do peso <br>
+          Abaixo do peso <br>
+          Peso normal <br>
+          Acima do peso <br>
+          Obesidade I <br>
+          Obesidade II (severa) <br>
+          Obesidade III (mórbida) <br>
+        </p>
+      </div>
+
+      <form action="/" id="form" method="POST">
+        <label for="peso">Peso:</label>
+        <input type="text" id="peso">
+
+        <label for="altura">Altura:</label>
+        <input type="text" id="altura">
+
+        <button type="submit">Enviar</button>
+      </form>
+      
+      <div id="resultado">
+
+        
+      </div>
+    </section>
+
+    <script src="/index.js"></script>
+  </body>
+</html>
